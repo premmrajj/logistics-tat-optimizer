@@ -1,10 +1,12 @@
 # FMCG District Logistics & Inbound Optimization Control Tower
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+[![Live Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://logistics-tat-optimizer-mknnbqcxxunf2vhj3vknit.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Scikit--Learn-Random%20Forest-orange.svg)](#)
 [![Operations Research](https://img.shields.io/badge/Operations%20Research-Discrete--Event%20Simulation-purple.svg)](#)
 [![Monte Carlo](https://img.shields.io/badge/Simulation-1%2C000%20Stochastic%20Trials-green.svg)](#)
+
+> 🚀 **Live Interactive Web Application:** [**Launch FMCG Logistics Control Tower App**](https://logistics-tat-optimizer-mknnbqcxxunf2vhj3vknit.streamlit.app/)
 
 An advanced, production-grade Industrial Engineering and Predictive Analytics system engineered for the **Graduate Engineer Trainee (GET) – Logistics & Warehousing (Level 6)** role in large-scale multi-tier distribution networks (e.g., ITC, HUL, Britannia, Amazon).
 
