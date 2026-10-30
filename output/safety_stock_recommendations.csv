@@ -1,0 +1,71 @@
+wd_id,wd_name,wd_location,sku_id,sku_name,category,shelf_life_days,norm_inventory_days,daily_demand_mean,daily_demand_std,replenishment_tit_mean_days,replenishment_tit_std_days,current_stock_units,batch_age_days,freshness_remaining_pct,ss_static_units,ss_dynamic_units,tit_volatility_buffer_units,tit_buffer_increase_pct,lead_time_demand,rop_units,inventory_status,days_on_hand
+WD-PUN-00,Distributor A,Hadapsar,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,83.1,17.3,1.34,0.43,328,51,71.7,33,68,35,106.1,112,180,HEALTHY (Within Norm),3.9
+WD-PUN-00,Distributor A,Hadapsar,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,73.8,15.8,2.41,0.44,314,17,90.6,41,67,26,63.4,178,245,HEALTHY (Within Norm),4.3
+WD-PUN-00,Distributor A,Hadapsar,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,141.5,44.5,1.26,0.49,1483,12,86.7,83,141,58,69.9,179,320,EXCESS HOLDING (Aging Risk),10.5
+WD-PUN-00,Distributor A,Hadapsar,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,216.5,66.6,2.45,0.6,1507,24,73.3,172,274,102,59.3,531,805,HEALTHY (Within Norm),7.0
+WD-PUN-00,Distributor A,Hadapsar,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,170.6,59.0,2.11,0.36,1117,106,55.8,141,174,33,23.4,360,534,HEALTHY (Within Norm),6.5
+WD-PUN-00,Distributor A,Hadapsar,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,130.6,34.7,2.21,0.31,1892,256,64.4,85,108,23,27.1,289,397,HEALTHY (Within Norm),14.5
+WD-PUN-00,Distributor A,Hadapsar,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,145.5,47.3,1.58,0.39,2126,465,56.9,98,136,38,38.8,230,366,HEALTHY (Within Norm),14.6
+WD-PUN-01,Distributor B,Chakan,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,152.7,52.2,1.5,0.43,1032,30,83.3,106,151,45,42.5,230,381,HEALTHY (Within Norm),6.8
+WD-PUN-01,Distributor B,Chakan,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,178.4,37.0,2.45,0.61,1241,78,56.7,96,203,107,111.5,438,641,HEALTHY (Within Norm),7.0
+WD-PUN-01,Distributor B,Chakan,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,207.4,49.4,2.22,0.5,1497,39,56.7,122,210,88,72.1,461,671,HEALTHY (Within Norm),7.2
+WD-PUN-01,Distributor B,Chakan,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,209.2,39.1,2.13,0.71,1368,31,65.6,94,262,168,178.7,446,708,HEALTHY (Within Norm),6.5
+WD-PUN-01,Distributor B,Chakan,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,149.2,51.2,1.94,0.9,750,13,94.6,118,251,133,112.7,290,541,HEALTHY (Within Norm),5.0
+WD-PUN-01,Distributor B,Chakan,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,65.7,21.5,1.91,0.88,943,56,92.2,49,107,58,118.4,126,233,HEALTHY (Within Norm),14.4
+WD-PUN-01,Distributor B,Chakan,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,129.8,33.4,1.42,0.48,1358,307,71.6,66,122,56,84.8,185,307,HEALTHY (Within Norm),10.5
+WD-PUN-02,Distributor C,Kothrud,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,105.4,20.6,1.43,0.76,525,72,60.0,41,138,97,236.6,151,289,HEALTHY (Within Norm),5.0
+WD-PUN-02,Distributor C,Kothrud,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,216.1,66.9,1.77,0.85,1696,74,58.9,147,336,189,128.6,383,719,HEALTHY (Within Norm),7.8
+WD-PUN-02,Distributor C,Kothrud,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,47.1,15.4,1.72,0.81,487,16,82.2,34,72,38,111.8,82,154,HEALTHY (Within Norm),10.3
+WD-PUN-02,Distributor C,Kothrud,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,119.3,31.9,2.01,0.49,676,25,72.2,75,122,47,62.7,240,362,HEALTHY (Within Norm),5.7
+WD-PUN-02,Distributor C,Kothrud,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,131.1,29.5,2.34,0.71,996,94,60.8,75,171,96,128.0,307,478,HEALTHY (Within Norm),7.6
+WD-PUN-02,Distributor C,Kothrud,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,50.3,15.8,2.11,0.64,458,65,91.0,38,66,28,73.7,107,173,HEALTHY (Within Norm),9.1
+WD-PUN-02,Distributor C,Kothrud,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,92.3,19.1,1.72,0.34,1276,248,77.0,42,67,25,59.5,159,226,HEALTHY (Within Norm),13.8
+WD-PUN-03,Distributor D,Wakad,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,160.4,38.4,1.81,0.62,1176,25,86.1,85,185,100,117.6,291,476,HEALTHY (Within Norm),7.3
+WD-PUN-03,Distributor D,Wakad,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,55.4,16.9,2.39,0.85,394,37,79.4,43,89,46,107.0,133,222,HEALTHY (Within Norm),7.1
+WD-PUN-03,Distributor D,Wakad,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,112.3,21.4,1.65,0.66,717,35,61.1,46,131,85,184.8,186,317,HEALTHY (Within Norm),6.4
+WD-PUN-03,Distributor D,Wakad,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,125.7,28.6,1.25,0.39,985,32,64.4,53,97,44,83.0,158,255,HEALTHY (Within Norm),7.8
+WD-PUN-03,Distributor D,Wakad,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,78.4,21.7,2.48,0.76,381,58,75.8,57,113,56,98.2,195,308,HEALTHY (Within Norm),4.9
+WD-PUN-03,Distributor D,Wakad,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,182.1,63.1,1.48,0.43,1455,228,68.3,127,181,54,42.5,270,451,HEALTHY (Within Norm),8.0
+WD-PUN-03,Distributor D,Wakad,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,88.6,25.5,1.31,0.34,1241,164,84.8,49,69,20,40.8,117,186,HEALTHY (Within Norm),14.0
+WD-PUN-04,Distributor E,Camp,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,197.3,50.7,1.75,0.43,1510,35,80.6,111,178,67,60.4,346,524,HEALTHY (Within Norm),7.7
+WD-PUN-04,Distributor E,Camp,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,189.5,37.1,2.37,0.51,1339,33,81.7,94,185,91,96.8,450,635,HEALTHY (Within Norm),7.1
+WD-PUN-04,Distributor E,Camp,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,75.7,25.7,1.83,0.62,726,34,62.2,58,97,39,67.2,139,236,HEALTHY (Within Norm),9.6
+WD-PUN-04,Distributor E,Camp,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,118.6,39.7,1.94,0.79,989,40,55.6,91,179,88,96.7,231,410,HEALTHY (Within Norm),8.3
+WD-PUN-04,Distributor E,Camp,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,147.5,28.5,2.07,0.67,905,105,56.2,68,177,109,160.3,306,483,HEALTHY (Within Norm),6.1
+WD-PUN-04,Distributor E,Camp,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,173.7,53.0,1.61,0.39,2024,87,87.9,111,158,47,42.3,280,438,HEALTHY (Within Norm),11.7
+WD-PUN-04,Distributor E,Camp,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,129.9,30.4,2.23,0.7,1625,381,64.7,75,168,93,124.0,290,458,HEALTHY (Within Norm),12.5
+WD-PUN-05,Distributor F,Bhosari,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,40.7,10.4,2.28,0.38,235,24,86.7,26,37,11,42.3,93,130,HEALTHY (Within Norm),5.8
+WD-PUN-05,Distributor F,Bhosari,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,46.6,14.3,1.44,0.72,334,60,66.7,29,62,33,113.8,68,130,HEALTHY (Within Norm),7.2
+WD-PUN-05,Distributor F,Bhosari,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,78.9,17.0,1.45,0.71,832,23,74.4,34,99,65,191.2,115,214,HEALTHY (Within Norm),10.5
+WD-PUN-05,Distributor F,Bhosari,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,186.5,34.1,2.37,0.6,1876,34,62.2,87,204,117,134.5,443,647,HEALTHY (Within Norm),10.1
+WD-PUN-05,Distributor F,Bhosari,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,129.8,45.4,1.74,0.51,1118,66,72.5,99,147,48,48.5,226,373,HEALTHY (Within Norm),8.6
+WD-PUN-05,Distributor F,Bhosari,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,134.2,41.6,1.35,0.41,1529,102,85.8,80,121,41,51.2,182,303,HEALTHY (Within Norm),11.4
+WD-PUN-05,Distributor F,Bhosari,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,139.5,29.0,1.77,0.47,2326,360,66.7,64,126,62,96.9,247,373,HEALTHY (Within Norm),16.7
+WD-PUN-06,Distributor G,Swargate,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,118.7,27.1,2.01,0.86,890,23,87.2,64,180,116,181.2,239,419,HEALTHY (Within Norm),7.5
+WD-PUN-06,Distributor G,Swargate,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,185.1,36.6,2.04,0.67,1042,75,58.3,86,222,136,158.1,378,600,HEALTHY (Within Norm),5.6
+WD-PUN-06,Distributor G,Swargate,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,175.0,50.1,1.91,0.68,1403,37,58.9,114,227,113,99.1,335,562,HEALTHY (Within Norm),8.0
+WD-PUN-06,Distributor G,Swargate,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,45.9,10.5,1.75,0.43,355,24,73.3,23,40,17,73.9,81,121,HEALTHY (Within Norm),7.7
+WD-PUN-06,Distributor G,Swargate,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,60.6,19.7,2.44,0.51,511,71,70.4,51,72,21,41.2,148,220,HEALTHY (Within Norm),8.4
+WD-PUN-06,Distributor G,Swargate,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,114.3,36.5,2.11,0.74,899,203,71.8,88,165,77,87.5,242,407,HEALTHY (Within Norm),7.9
+WD-PUN-06,Distributor G,Swargate,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,180.8,48.1,1.55,0.7,2346,474,56.1,99,231,132,133.3,281,512,HEALTHY (Within Norm),13.0
+WD-PUN-07,Distributor H,Pimpri,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,183.1,45.9,1.51,0.84,1033,13,92.8,93,270,177,190.3,277,547,HEALTHY (Within Norm),5.6
+WD-PUN-07,Distributor H,Pimpri,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,44.7,14.1,2.29,0.61,313,52,71.1,36,57,21,58.3,103,160,HEALTHY (Within Norm),7.0
+WD-PUN-07,Distributor H,Pimpri,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,100.3,34.4,2.49,0.45,1068,18,80.0,90,117,27,30.0,250,367,HEALTHY (Within Norm),10.6
+WD-PUN-07,Distributor H,Pimpri,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,150.9,37.3,1.27,0.86,1147,32,64.4,70,225,155,221.4,192,417,HEALTHY (Within Norm),7.6
+WD-PUN-07,Distributor H,Pimpri,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,110.3,33.5,1.72,0.49,587,41,82.9,73,115,42,57.5,190,305,HEALTHY (Within Norm),5.3
+WD-PUN-07,Distributor H,Pimpri,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,57.9,18.3,1.86,0.68,833,145,79.9,42,77,35,83.3,108,185,HEALTHY (Within Norm),14.4
+WD-PUN-07,Distributor H,Pimpri,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,190.7,39.5,1.62,0.36,1910,17,98.4,83,140,57,68.7,309,449,HEALTHY (Within Norm),10.0
+WD-PUN-08,Distributor I,Viman Nagar,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,153.2,43.0,1.24,0.72,1190,22,87.8,79,198,119,150.6,190,388,HEALTHY (Within Norm),7.8
+WD-PUN-08,Distributor I,Viman Nagar,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,142.9,26.3,2.15,0.89,938,57,68.3,64,219,155,242.2,308,527,HEALTHY (Within Norm),6.6
+WD-PUN-08,Distributor I,Viman Nagar,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,73.6,21.4,1.49,0.42,729,35,61.1,43,67,24,55.8,110,177,HEALTHY (Within Norm),9.9
+WD-PUN-08,Distributor I,Viman Nagar,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,180.4,56.6,2.2,0.7,1216,16,82.2,139,250,111,79.9,397,647,HEALTHY (Within Norm),6.7
+WD-PUN-08,Distributor I,Viman Nagar,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,152.9,44.1,1.95,0.36,1039,88,63.3,102,136,34,33.3,299,435,HEALTHY (Within Norm),6.8
+WD-PUN-08,Distributor I,Viman Nagar,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,62.1,12.7,1.54,0.41,525,197,72.6,26,50,24,92.3,96,146,HEALTHY (Within Norm),8.5
+WD-PUN-08,Distributor I,Viman Nagar,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,204.3,44.0,1.33,0.78,2879,261,75.8,84,276,192,228.6,272,548,HEALTHY (Within Norm),14.1
+WD-PUN-09,Distributor J,Katraj,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),180,6,212.7,41.0,2.09,0.53,1109,69,61.7,98,210,112,114.3,445,655,HEALTHY (Within Norm),5.2
+WD-PUN-09,Distributor J,Katraj,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),180,6,185.5,39.1,1.21,0.41,1165,16,91.1,71,144,73,102.8,225,369,HEALTHY (Within Norm),6.3
+WD-PUN-09,Distributor J,Katraj,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,8,61.1,14.6,1.65,0.9,523,12,86.7,31,96,65,209.7,101,197,HEALTHY (Within Norm),8.6
+WD-PUN-09,Distributor J,Katraj,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),90,8,68.5,21.0,2.4,0.42,368,12,86.7,54,72,18,33.3,165,237,HEALTHY (Within Norm),5.4
+WD-PUN-09,Distributor J,Katraj,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,240,7,133.2,41.2,1.48,0.52,1192,15,93.8,83,141,58,69.9,198,339,HEALTHY (Within Norm),8.9
+WD-PUN-09,Distributor J,Katraj,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,720,12,99.0,21.5,2.15,0.86,995,258,64.2,52,150,98,188.5,213,363,HEALTHY (Within Norm),10.1
+WD-PUN-09,Distributor J,Katraj,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),1080,15,75.9,14.8,2.12,0.69,1112,426,60.6,36,94,58,161.1,161,255,HEALTHY (Within Norm),14.7

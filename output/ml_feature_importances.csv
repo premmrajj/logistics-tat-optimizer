@@ -1,0 +1,29 @@
+feature,importance
+payload_tons,0.2419137049554246
+dispatch_hour,0.13655033942023864
+stockout_urgency_score,0.11036764586334691
+pallet_count,0.10508822802911043
+dispatch_dayofweek,0.07877338658977072
+planned_tit_hours,0.023152173096013105
+distance_km,0.021506052191468842
+category_YiPPee! Noodles,0.021332729667864325
+category_Aashirvaad Atta (Staples),0.02043414779894709
+is_month_end,0.01994719851869535
+fleet_type_Open Body 16T,0.01902199134739705
+category_Classmate Notebooks (Stationery),0.01719023628239017
+category_Sunfeast Biscuits (High Velocity),0.016937677636901276
+transporter_Western Roadlines,0.01659878742526712
+origin_cdc_Bengaluru CDC,0.015615488703405614
+category_Fiama & Vivel Personal Care,0.015310971960512204
+origin_cdc_Nagpur Mother Warehouse,0.014261128571677696
+origin_cdc_Haridwar Factory CDC,0.012914268688070451
+transporter_TCI Freight,0.011271583738793722
+fleet_type_Closed Container 14T,0.01069438590632835
+transporter_Gati KWE,0.010562646812938066
+transporter_Safexpress,0.010047437783901575
+fleet_type_Taurus 21T,0.00990084595801542
+fleet_type_Container 12T,0.009548783831955315
+fleet_type_Multi-Axle 16T,0.008402178743668852
+transporter_VRL Logistics,0.008197392460762417
+origin_cdc_Kolkata Central DC,0.007341947848968698
+origin_cdc_Sanand Food Factory,0.007116640168165992

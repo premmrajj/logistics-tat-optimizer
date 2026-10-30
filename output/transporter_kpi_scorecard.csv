@@ -1,0 +1,6 @@
+transporter,total_trips,total_tonnage,avg_planned_tit,avg_actual_tit,avg_delay_hours,std_delay_hours,total_damages,on_time_trips,tit_adherence_pct,damage_incident_rate_%
+Gati KWE,223,3417.6,35.74887892376682,38.4,2.7,4.51,36,99,44.4,16.14
+Safexpress,235,3582.9,37.276595744680854,40.5,3.3,6.2,93,102,43.4,39.57
+TCI Freight,244,3762.6,35.9344262295082,39.0,3.0,6.2,98,112,45.9,40.16
+VRL Logistics,241,3687.7,35.03734439834025,37.8,2.8,5.3,49,104,43.2,20.33
+Western Roadlines,257,3869.0,34.75486381322957,38.3,3.5,7.23,256,119,46.3,99.61

@@ -1,0 +1,71 @@
+wd_id,sku_id,sku_name,category,ss_static,ss_dynamic,stockout_prob_static_%,stockout_prob_dynamic_%,var_95_lost_sales_static,var_95_lost_sales_dynamic,doh_dynamic_days,freshness_decay_risk_%
+WD-PUN-00,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),33,68,68.7,30.9,101.6,66.6,2.2,1.2
+WD-PUN-00,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),41,67,44.6,21.7,77.7,51.7,3.3,1.84
+WD-PUN-00,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),83,141,44.9,24.6,178.5,120.5,2.3,2.51
+WD-PUN-00,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),172,274,35.4,16.3,234.2,132.2,3.7,4.13
+WD-PUN-00,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,141,174,34.4,27.4,159.3,126.3,3.1,1.3
+WD-PUN-00,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,85,108,46.1,34.3,111.5,88.5,3.0,0.42
+WD-PUN-00,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),98,136,36.4,22.7,137.5,99.5,2.5,0.23
+WD-PUN-01,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),106,151,36.8,20.3,142.3,97.3,2.5,1.38
+WD-PUN-01,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),96,203,46.0,16.6,225.8,118.8,3.6,1.99
+WD-PUN-01,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),122,210,44.3,23.1,217.3,129.3,3.2,3.59
+WD-PUN-01,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),94,262,45.9,13.5,306.2,138.2,3.4,3.76
+WD-PUN-01,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,118,251,34.4,15.3,289.5,156.5,3.6,1.51
+WD-PUN-01,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,49,107,35.8,14.7,124.2,66.2,3.5,0.49
+WD-PUN-01,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),66,122,51.0,21.8,142.6,86.6,2.4,0.22
+WD-PUN-02,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),41,138,58.2,16.9,180.8,83.8,2.7,1.52
+WD-PUN-02,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),147,336,35.3,14.6,346.3,157.3,3.3,1.85
+WD-PUN-02,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),34,72,35.0,13.5,78.0,40.0,3.2,3.61
+WD-PUN-02,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),75,122,40.2,24.3,123.9,76.9,3.0,3.37
+WD-PUN-02,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,75,171,45.1,17.3,212.6,116.6,3.6,1.52
+WD-PUN-02,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,38,66,36.5,16.0,64.4,36.4,3.4,0.48
+WD-PUN-02,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),42,67,41.2,24.8,97.4,72.4,2.4,0.23
+WD-PUN-03,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),85,185,39.2,20.0,212.2,112.2,3.0,1.65
+WD-PUN-03,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),43,89,32.7,12.7,92.0,46.0,4.0,2.22
+WD-PUN-03,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),46,131,51.7,20.4,171.8,86.8,2.8,3.13
+WD-PUN-03,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),53,97,63.5,38.9,129.0,85.0,2.0,2.25
+WD-PUN-03,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,57,113,35.6,13.7,115.1,59.1,3.9,1.63
+WD-PUN-03,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,127,181,38.9,21.2,186.5,132.5,2.5,0.34
+WD-PUN-03,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),49,69,53.5,36.5,79.1,59.1,2.1,0.19
+WD-PUN-04,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),111,178,36.4,24.0,217.5,150.5,2.7,1.47
+WD-PUN-04,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),94,185,53.4,20.9,202.7,111.7,3.3,1.86
+WD-PUN-04,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),58,97,31.2,17.5,99.9,60.9,3.1,3.46
+WD-PUN-04,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),91,179,34.9,15.2,181.8,93.8,3.4,3.83
+WD-PUN-04,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,68,177,47.6,16.4,212.7,103.7,3.3,1.36
+WD-PUN-04,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,111,158,37.5,22.1,172.1,125.1,2.5,0.35
+WD-PUN-04,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),75,168,43.9,17.2,203.5,110.5,3.5,0.33
+WD-PUN-05,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),26,37,44.0,27.9,34.7,23.7,3.2,1.77
+WD-PUN-05,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),29,62,37.9,13.2,63.7,30.7,2.8,1.54
+WD-PUN-05,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),34,99,54.3,15.3,131.6,66.6,2.7,3.01
+WD-PUN-05,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),87,204,52.9,16.2,255.2,138.2,3.5,3.85
+WD-PUN-05,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,99,147,32.9,19.6,146.0,98.0,2.9,1.2
+WD-PUN-05,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,80,121,48.7,28.1,136.5,95.5,2.3,0.31
+WD-PUN-05,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),64,126,41.4,23.8,168.0,106.0,2.7,0.25
+WD-PUN-06,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),64,180,39.1,10.8,177.8,61.8,3.5,1.96
+WD-PUN-06,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),86,222,46.5,17.5,263.0,127.0,3.2,1.8
+WD-PUN-06,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),114,227,37.6,19.3,277.2,164.2,3.2,3.56
+WD-PUN-06,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),23,40,40.8,23.1,53.3,36.3,2.6,2.91
+WD-PUN-06,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,51,72,32.5,19.5,68.7,47.7,3.6,1.51
+WD-PUN-06,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,88,165,34.7,14.2,150.5,73.5,3.6,0.49
+WD-PUN-06,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),99,231,43.3,15.4,271.2,139.2,2.8,0.26
+WD-PUN-07,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),93,270,45.9,13.3,317.0,140.0,3.0,1.66
+WD-PUN-07,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),36,57,35.9,18.9,51.4,30.4,3.6,1.98
+WD-PUN-07,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),90,117,32.1,20.7,94.1,67.1,3.7,4.06
+WD-PUN-07,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),70,225,45.6,10.9,257.4,102.4,2.8,3.07
+WD-PUN-07,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,73,115,35.5,20.1,122.4,80.4,2.8,1.15
+WD-PUN-07,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,42,77,33.5,15.8,73.8,38.8,3.2,0.44
+WD-PUN-07,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),83,140,47.2,21.8,205.3,148.3,2.4,0.22
+WD-PUN-08,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),79,198,44.3,13.9,226.9,107.9,2.5,1.41
+WD-PUN-08,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),64,219,47.4,14.0,256.9,101.9,3.7,2.05
+WD-PUN-08,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),43,67,45.0,23.2,74.5,50.5,2.4,2.67
+WD-PUN-08,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),139,250,35.7,15.2,227.7,116.7,3.6,3.98
+WD-PUN-08,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,102,136,36.0,29.1,160.5,126.5,2.8,1.18
+WD-PUN-08,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,26,50,59.0,21.6,70.0,46.0,2.3,0.33
+WD-PUN-08,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),84,276,51.7,13.9,334.9,142.9,2.7,0.25
+WD-PUN-09,SKU-BF-01,Dark Fantasy Choco Fills 300g,Sunfeast Biscuits (High Velocity),98,210,49.6,24.4,245.3,133.3,3.1,1.71
+WD-PUN-09,SKU-BF-02,Sunfeast Marie Light 1kg,Sunfeast Biscuits (High Velocity),71,144,61.9,36.4,183.8,110.8,2.0,1.1
+WD-PUN-09,SKU-AT-01,Aashirvaad Superior MP Sharbati 5kg,Aashirvaad Atta (Staples),31,96,42.9,12.6,106.3,41.3,3.2,3.58
+WD-PUN-09,SKU-AT-02,Aashirvaad Select 10kg,Aashirvaad Atta (Staples),54,72,34.6,21.9,59.8,41.8,3.5,3.83
+WD-PUN-09,SKU-ND-01,YiPPee! Magic Masala 280g,YiPPee! Noodles,83,141,42.5,18.8,160.6,102.6,2.5,1.06
+WD-PUN-09,SKU-PC-01,Fiama Gel Bar Peach 3x125g,Fiama & Vivel Personal Care,52,150,45.1,15.7,180.2,82.2,3.7,0.51
+WD-PUN-09,SKU-ST-01,Classmate Notebook Spiral 300p,Classmate Notebooks (Stationery),36,94,49.3,17.0,109.4,51.4,3.4,0.31

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMCG District Logistics & Warehousing Control Tower</title>
+    <!-- Chart.js CDN for interactive visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #0284c7;
+            --accent: #f59e0b;
+            --danger: #ef4444;
+            --success: #10b981;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-sub: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            padding: 24px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            color: var(--text-sub);
+            margin-top: 4px;
+        }
+
+        .badge {
+            background-color: #e0e7ff;
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        /* KPI Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .kpi-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .kpi-title {
+            font-size: 13px;
+            color: var(--text-sub);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .kpi-value {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 10px 0 6px 0;
+            color: var(--text-main);
+        }
+
+        .kpi-delta {
+            font-size: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .kpi-delta.good { color: var(--success); }
+        .kpi-delta.bad { color: var(--danger); }
+
+        /* Main Content Layout */
+        .layout-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px;
+            margin-bottom: 28px;
+        }
+
+        @media (max-width: 1024px) {
+            .layout-grid { grid-template-columns: 1fr; }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 24px;
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        th {
+            background: #f1f5f9;
+            color: var(--text-sub);
+            font-weight: 600;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:hover { background-color: #f8fafc; }
+
+        /* Interactive Simulator Box */
+        .slider-group {
+            margin-bottom: 16px;
+        }
+
+        .slider-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            accent-color: var(--secondary);
+        }
+
+        .calc-result-box {
+            background: #eff6ff;
+            border: 1px dashed var(--secondary);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+            text-align: center;
+        }
+
+        .calc-result-val {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <h1>FMCG District Logistics Control Tower</h1>
+            <div class="subtitle">Role Profile: GET – Logistics & Warehousing | District: Pune Regional Godown (WSP-1)</div>
+        </div>
+        <div class="badge">Live Optimization Model</div>
+    </div>
+
+    <!-- KPI Metric Cards -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-title">Average Truck TAT</div>
+            <div class="kpi-value">4.11 hrs</div>
+            <div class="kpi-delta good">▼ 72.7% (from 15.07 hrs)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Demurrage Spend Saved</div>
+            <div class="kpi-value">₹34.46 L</div>
+            <div class="kpi-delta good">▼ 91.7% cost reduction</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Critical SKU Turnaround</div>
+            <div class="kpi-value">3.77 hrs</div>
+            <div class="kpi-delta good">▼ 72.4% faster receiving</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Projected OTIF Compliance</div>
+            <div class="kpi-value">96.8%</div>
+            <div class="kpi-delta good">▲ +4.2% vs target 95%</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">TIT Volatility Safety Buffer</div>
+            <div class="kpi-value">+102.2%</div>
+            <div class="kpi-delta bad">Highway variance premium</div>
+        </div>
+    </div>
+
+    <!-- Main Section: Charts and Interactive Sandbox -->
+    <div class="layout-grid">
+        <div>
+            <!-- Chart 1: Truck Turnaround Time Comparison -->
+            <div class="card">
+                <div class="card-title">
+                    <span>Inbound Dock Bottleneck Benchmark: Baseline (FCFS) vs Optimized (Slotting + EDD)</span>
+                </div>
+                <div style="height: 280px;">
+                    <canvas id="tatComparisonChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Table: Transporter K1/K2 Performance Benchmarking -->
+            <div class="card">
+                <div class="card-title">
+                    <span>Transporter Performance & TIT Scorecard (K1 & K2 Legs)</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Transporter</th>
+                            <th>Total Trips</th>
+                            <th>Avg Actual TIT</th>
+                            <th>Delay Variance (σ_L)</th>
+                            <th>Damage Rate</th>
+                            <th>TIT Adherence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Gati KWE</strong></td>
+                            <td>248</td>
+                            <td>39.2 hrs</td>
+                            <td>± 2.5 hrs</td>
+                            <td>0.4%</td>
+                            <td><span style="color:var(--success); font-weight:600;">94.2%</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>VRL Logistics</strong></td>
+                            <td>242</td>
+                            <td>40.1 hrs</td>
+                            <td>± 3.2 hrs</td>
+                            <td>0.8%</td>
+                            <td><span style="color:var(--success); font-weight:600;">91.7%</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Safexpress</strong></td>
+                            <td>231</td>
+                            <td>39.8 hrs</td>
+                            <td>± 3.8 hrs</td>
+                            <td>1.2%</td>
+                            <td><span style="color:#0284c7; font-weight:600;">89.4%</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>TCI Freight</strong></td>
+                            <td>254</td>
+                            <td>41.3 hrs</td>
+                            <td>± 4.8 hrs</td>
+                            <td>1.6%</td>
+                            <td><span style="color:#f59e0b; font-weight:600;">85.8%</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Western Roadlines</strong></td>
+                            <td>225</td>
+                            <td>44.6 hrs</td>
+                            <td>± 7.5 hrs</td>
+                            <td>3.8%</td>
+                            <td><span style="color:var(--danger); font-weight:600;">74.1%</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <!-- Interactive Simulator: TIT Lead Time Volatility Calculator -->
+            <div class="card">
+                <div class="card-title">
+                    <span>Interactive TIT Safety Stock Calculator</span>
+                </div>
+                <p style="font-size: 12px; color: var(--text-sub); margin-bottom: 16px;">
+                    Formula: <em>SS = Z × √(L·σ_D² + D²·σ_L²)</em>. Adjust highway TIT volatility to see required inventory buffer:
+                </p>
+
+                <div class="slider-group">
+                    <div class="slider-header">
+                        <span>Daily Demand (Mean Units)</span>
+                        <strong id="val_d">120</strong>
+                    </div>
+                    <input type="range" id="slider_d" min="40" max="300" value="120" oninput="recalc()">
+                </div>
+
+                <div class="slider-group">
+                    <div class="slider-header">
+                        <span>Demand Volatility (σ_D)</span>
+                        <strong id="val_sd">25</strong>
+                    </div>
+                    <input type="range" id="slider_sd" min="5" max="80" value="25" oninput="recalc()">
+                </div>
+
+                <div class="slider-group">
+                    <div class="slider-header">
+                        <span>Average Transit Time L (Days)</span>
+                        <strong id="val_l">2.0</strong>
+                    </div>
+                    <input type="range" id="slider_l" min="1.0" max="5.0" step="0.5" value="2.0" oninput="recalc()">
+                </div>
+
+                <div class="slider-group">
+                    <div class="slider-header">
+                        <span>TIT Highway Volatility (σ_L Days)</span>
+                        <strong id="val_sl">0.6</strong>
+                    </div>
+                    <input type="range" id="slider_sl" min="0.1" max="2.0" step="0.1" value="0.6" oninput="recalc()">
+                </div>
+
+                <div class="calc-result-box">
+                    <div style="font-size: 12px; color: var(--text-sub);">Dynamic Safety Stock Required (95% OTIF)</div>
+                    <div class="calc-result-val" id="res_ss">132 units</div>
+                    <div style="font-size: 11px; color: var(--secondary); margin-top: 4px;" id="res_premium">
+                        (+58 units due to highway TIT delays)
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operational Takeaways Card -->
+            <div class="card">
+                <div class="card-title">
+                    <span>Key Operations Takeaways</span>
+                </div>
+                <ul style="font-size: 13px; line-height: 1.6; color: var(--text-sub); padding-left: 18px;">
+                    <li><strong>Yard Staging:</strong> Advance slot booking removes peak morning bunching, preventing <strong>₹34.4L</strong> in demurrage.</li>
+                    <li><strong>MHE Palletization:</strong> Battery Operated Pallet Trucks (BOPT) reduced unloading cycle from 2.7 to 2.1 hrs.</li>
+                    <li><strong>WD OOS Mitigation:</strong> Prioritizing trucks carrying critical biscuits/atta eliminated distributor stockouts.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart.js Logic -->
+    <script>
+        const ctx = document.getElementById('tatComparisonChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Yard Wait Time (Hrs)', 'Total Truck TAT (Hrs)', 'Critical SKU TAT (Hrs)', 'Demurrage Rate (%)'],
+                datasets: [
+                    {
+                        label: 'Baseline (Uncontrolled FCFS)',
+                        data: [12.36, 15.07, 13.66, 46.5],
+                        backgroundColor: 'rgba(239, 68, 68, 0.75)',
+                        borderColor: '#ef4444',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Optimized (Staggered Slotting + EDD)',
+                        data: [2.00, 4.11, 3.77, 20.1],
+                        backgroundColor: 'rgba(16, 185, 129, 0.75)',
+                        borderColor: '#10b981',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: '#f1f5f9' }
+                    },
+                    x: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+
+        // Interactive Safety Stock Calculator
+        function recalc() {
+            const D = parseFloat(document.getElementById('slider_d').value);
+            const sD = parseFloat(document.getElementById('slider_sd').value);
+            const L = parseFloat(document.getElementById('slider_l').value);
+            const sL = parseFloat(document.getElementById('slider_sl').value);
+            const Z = 1.645; // 95% service level
+
+            document.getElementById('val_d').innerText = D;
+            document.getElementById('val_sd').innerText = sD;
+            document.getElementById('val_l').innerText = L.toFixed(1);
+            document.getElementById('val_sl').innerText = sL.toFixed(1);
+
+            // Static Safety Stock (zero lead time variance)
+            const ss_static = Math.ceil(Z * sD * Math.sqrt(L));
+
+            // Dynamic Safety Stock (Combined Variance)
+            const var_term = (L * Math.pow(sD, 2)) + (Math.pow(D, 2) * Math.pow(sL, 2));
+            const ss_dynamic = Math.ceil(Z * Math.sqrt(var_term));
+
+            const premium = ss_dynamic - ss_static;
+
+            document.getElementById('res_ss').innerText = `${ss_dynamic} units`;
+            document.getElementById('res_premium').innerText = `(+${premium} units buffer strictly due to TIT volatility)`;
+        }
+
+        recalc();
+    </script>
+</body>
+</html>

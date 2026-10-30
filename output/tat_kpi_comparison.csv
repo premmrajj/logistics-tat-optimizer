@@ -1,0 +1,8 @@
+Metric,Baseline (FCFS),Optimized (Slotting + Priority)
+Total Inbound Trucks Handled,1200,1200
+Average Yard Waiting Time (Hrs),12.36,2.0
+Average Truck TAT (Gate-in to Out) (Hrs),15.07,4.11
+Trucks Incurring Demurrage (>6 Hrs),558,241
+% Demurrage Breach Rate,46.5%,20.1%
+Total Demurrage Penalty Incurred (INR),"INR 3,759,102","INR 312,469"
+Avg TAT for Critical Urgency Trucks (Score >= 8) (Hrs),13.66,3.77

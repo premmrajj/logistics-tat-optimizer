@@ -1,0 +1,22 @@
+{
+    "project_name": "Dynamic Inbound Truck TAT & TIT-Resilient Inventory Optimization",
+    "industry_context": "FMCG Distribution Network (Level 6 GET Logistics & Warehousing)",
+    "inbound_trips_analyzed": 1200,
+    "warehouses_modeled": "Pune Regional Branch Godown (WSP-1)",
+    "distributors_covered": 10,
+    "skus_evaluated": 7,
+    "results": {
+        "truck_tat_baseline_hours": 15.07,
+        "truck_tat_optimized_hours": 4.11,
+        "tat_reduction_percentage": 72.7,
+        "critical_sku_tat_reduction_pct": 72.4,
+        "baseline_demurrage_inr": 3759102,
+        "optimized_demurrage_inr": 312469,
+        "net_demurrage_savings_inr": 3446633,
+        "demurrage_breach_rate_baseline": "46.5%",
+        "demurrage_breach_rate_optimized": "20.1%",
+        "tit_variance_safety_stock_premium_pct": 102.2,
+        "wholesale_distributor_oos_prevention_pct": 24.3,
+        "projected_monthly_otif_compliance": "96.8%"
+    }
+}
